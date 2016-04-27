@@ -27,6 +27,7 @@ public class H10Oef1
         dc.voegWapenToe("Glock", 2, 5, 9, false);
         dc.voegGebouwToe("Hogent", 10.5);
         dc.voegGebouwToe("Astrid", 20);
+        dc.voegGebouwToe("This is not real", 80);
         System.out.println(dc.toonOverzicht());
     }
 }
